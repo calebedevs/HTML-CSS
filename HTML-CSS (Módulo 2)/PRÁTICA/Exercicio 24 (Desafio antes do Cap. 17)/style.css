@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Indie+Flower&display=swap');
+
+
+
+body {
+    text-align: center;
+    background-color: rgb(159, 255, 189);
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+h2.principal {
+    color: rgba(206, 255, 222, 0.69);
+    text-shadow: 1px 1px 2px rgb(63, 63, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #8cff00;
+    background-image: linear-gradient(to bottom, #8cff00, rgb(0, 69, 0));
+    padding: 35px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.645);
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.529);
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+img.primario {
+    width: 750px;
+    height: auto;
+}
+
+img.principal {
+    width: 750px;
+    height: auto;
+}
+
+h1.secundario {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: green;
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {
+    text-align: justify;
+
+}
+
+h2.secundario {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: green;
+    text-align: left;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2.terciario {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: green;
+    text-align: left;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.destaque1 {
+    color: rgb(0, 64, 0);
+    text-shadow: 1px 1px 0px;
+}
+
+.destaque2 {
+    color: rgb(0, 64, 0);
+    text-shadow: 1px 1px 0px;
+}
+
+.destaque3 {
+    color: rgb(0, 64, 0);
+    text-shadow: 1px 1px 0px;
+}
+
+img.secundario {
+    width: 200px;
+    height: auto;
+}
+
+img.terciario {
+    width: 700px;
+    height: auto;
+}

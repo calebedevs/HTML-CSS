@@ -1,0 +1,320 @@
+CAPITULO 1 - MODULO 1.
+
+(Fase 1: Perguntas & Respostas)
+---------------------------------------------------------------------------------------------------------------------------------
+
+*Como surgiu a Internet?
+  A internet surgiu inicialmente por conta da Guerra Fria, uma guerra entre os Estados Unicos e a União Soviética no ano 1969.
+  Porém, a Guerra Fria se iniciou originalmente no ano 1949, mas, esta guerra era uma guerra "mental", pois os Estados Unidos
+  ou a União Soviética ficavam se perguntando: "quando eles vão nos atacar?", "quando nós atacaremos?", "eles podem nos ata-
+  car a qualquer momento", entre outros...
+  Então, isso se repetiu por 20 ANOS, até chegar no ano 1969, em que a União Soviética criou um matérial parecido como um sa-
+  télite, chamado sputnik, em que sua única função era girar várias vezes em torno da terra, e depois cair no oceano. Enquanto
+  ele girava ele tranmitia bips para que a União Soviética capture esses bips em torno da terra, sendo apenas um teste, porém,
+  os Estados Unidos não sabiam que era um teste, então eles pensaram que o sputnik era uma espécie de ataque, pois ele conse-
+  guiu explodir uma base militar. Então o presidente militar daquela época, Dwight Eisenhower, ficou bastante preocupado com
+  a evolução da União Soviética, então ele decidiu criar o Darpa, tendo o intuito de criar tecnologias, armas, informações e
+  outras coisas para ajudar na guerra. Então, por conta da explosão da base militar, o presidente e os militares ficaram preo-
+  cupados de que o sputnik exploda outra base militar, pois se uma explode, os dados do Darpa e outras informações também ex-
+  plodem. Então a unica solução seria criar um tipo de Backup, para que todas os dados fiquem guardados não em só uma base, e
+  sim em todas. Então eles criaram uma rede, chamada Arpanet, tendo a disponibilidade de comunicar de cada um em seu computa-
+  dor de sua base. Porém, naquela época os computadores só conseguiam se comunicar quem tivesse a mesma marca de com-
+  putador que o outro. Por exemplo: uma base havia um computador da marca da SDS e a outra base também havia um com-
+  putador da marca SDS, eles poderiam se comunicar, mas se uma base usa SDS e a outra IBM, eles não poderam se comunicar. En-
+  tão por conta disso, os estados unidos criaram uma linguagem chamada NCP, sendo uma espécie de servidor que todos podessem
+  se comunicar mesmo tendo marcas de computadores diferentes. Porém tinha seu defeito, que era que quando um computador iria
+  se comunicar com outro, apenas eles poderam se comunicar, nenhum outro poderá se comunicar, aparecia que já tem dois compu-
+  tadores trocando mensagens, assim tinha que esperar eles terminarem. Então depois de alguns anos, essa rede foi crescendo,
+  assim até bases de um lado do estados unidos conseguirem se comunicar com bases do outro lado dos estados unidos. Porém, a
+  rede começou a ficar tão grande, que o NCP estava basicamente inutilizado, por conta que apenas dois podiam se comunicar ao
+  mesmo tempo. Então, em 1972, veio dois pesquisadores, um que era Bob kahn, que criou o TCP, uma solução do defeito de que a-
+  penas dois computadores poderiam se comunicar ao mesmo tempo. Porém, o TCP que era a solução, também teve um defeito, que era
+  que ele as vezes não conseguia indentificar o computador, então veio o outro pesquisador, Vint Cerf, criou uma solução do de-
+  feito, um protocolo de identificação dos computadores, o IP. Então, no final juntando o protocolo TCP e IP, vira o TCP/IP, con-
+  hecido como o funcionamento da internet até HOJE (evoluindo até a versão de hoje, a versão 6).
+  
+  RESUMO: A internet surgiu no período da Guerra Fria por conta que os Estados Unidos queria fazer um tipo de backup, porquê
+  eles não queriam perder seus dados de informações que estão armazenados em suas bases que estão sendo "explodidas" por um satélite
+  da União Soviética. Então os Estados Unidos cria a Arpanet e o NCP, fazendo a disponibilidade de comunicação entres as bases,
+  E ao longo dos anos, crescer e evoluir até chegar como hoje em dia.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+*Como a internet evoluiu?
+  Antigamente, a internet era bem diferente do que é hoje, era bem mais básica e feia. Que no caso o sistema usado era o Gopher, um
+  tipo de sistema feito para pesquisar informações e navegar. Mas ele era nada versátil, era apenas uma tela preta com palavras e
+  frases verdes (ou brancas se você tivesse um monitor melhor) podendo ser navegada apenas com as setas do teclado. Porém, em 1993,
+  um inglês chamado Timothy Berners Lee criou algo que conhecemos hoje como Link, um conjunto de letras e números, que quando aper-
+  tamos, vamos para outro local no computador. Ele evoluiu tanto os links que criou um protocolo chamado HTTP, que seria incluido logo após no TCP/IP.
+
+-O que é HTTP?
+  O HTTP é a sigla de Hypertext Transfer Protocol. Como o nome diz, ele é um protocolo que te faz ir para outro endereço acessando um Link,
+  aparecendo na URL "https//:".
+    
+  CURIOSIDADE: Ele (Tim Berners) criou a linguagem HTML e também criou o World Wide Web (WWW).
+ 
+-O que é o World Wide Web (WWW)?
+  o WWW é uma subrede em que tem conjuntos especializados em HTTP.
+  
+  RESUMO: Em 1993/1994, O inglês Timothy Berners Lee criou o Link (protocolo de endereço HTTP), HTML e o World Wide Web (WWW).
+
+CONTEÚDO EXTRA:
+
+-Quem criou e qual foi o primeiro navegador da internet?
+ O primeiro navegador foi o Mosaic, o unico navegador compativel com http, criado por Marc Andreessen. Assim, por causa de Marc, o
+  World Wide Web (WWW) virou realidade.
+--------------------------------------------------------------------------------------------------------------------------------
+
+CAPITULO 2 - MODULO 1
+
+(Fase 2: Explicações, Representações & Perguntas)
+-------------------------------------------------------------------------------
+
+*Múltiplos de Bytes:
+
+  1024 bytes= 1 KB  ->  1024 KB= 1MB  ->  1024 MB= 1 GB  ->  1024 GB= 1 TB...
+  
+  ATENÇÃO: MB ≠ Mb  ->  MB= MegaBYTES (ARMAZENAMENTO)
+                    ->  Mb= MegaBITS (TRANSMIÇÃO)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+*O que é um modem?
+  É um aparelho que faz a modulação e demodulação das ondas do Computador, Telefone e outros dispositivos. Modulação é transformar
+  a onda do Computador (Onda Quadrada) na do Telefone (Onda Circular), e demodulação é transformar a onda do Telefone na do Computador.
+  
+   MOdulação
+       +      = MODEM.
+  DEModulação
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+*Como acessamos os Sites?
+  Quando acessamos um Site (Ex: instagram.com), nós entramos em um Servidor ou, no caso do instagram, um conjunto de servidores. E, Quando
+  entramos no Site, o site identifica o servidor que você entra como números, como por exemplo, 3.224.112.47, que nós chamamos isso de IP.
+
+  CONTEÚDO EXTRA¹: Quando nós se conectamos na internet, ela própria já te identifica como números, no mesmo estilo dos Sites, o IP.
+  
+-O que é DNS?
+  DNS é como se fosse uma agenda telefonica. O Cliente (Você/sua máquina) quer entrar no instagram, por exemplo, então você digita instagram.com
+  e então, você se recebe com a transformação do endereço para IP do Servidor (Ex: 4.324.322.98), e depois entra nele.
+
+-Por que as vezes demora para entrar no Site?
+  Por conta que a internet é basicamente ilustrada como rotas, porém, sempre pode ter erro um no caminho. Como por exemplo, na vida real, você tem
+  que ir ao centro da cidade, porém, no meio do caminho você tem que entrar em uma rua, porém ela está interditada, então você tem que ir para ou-
+  tra rua para você conseguir chegar no centro, mesmo demorando mais.
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+*O que é Dominio e Hospedagem?
+  
+  Dominio: é um nome único que identifica seu site.
+  Hospedagem: é o local onde seu site vai estar seu site armazenado (Servidor).
+  
+  CONTEÚDO EXTRA: TLD (Top-Level Domain) é as variantes de letras/abreviações após o ponto (.), por exemplo:
+  
+  gTLD (g= generico): .com
+  ccTLD (cc= código de país): .com.br
+  
+------------------------------------------------------------------------------------------------------------------
+
+*O que é um URL?
+  URL é a sigla de Uniform Resource Locator (Localizador Uniforme de Recursos), é um endereço que é transformado
+  em DNS para ir para um Servidor único (nenhum outro URL pode entrar naquele mesmo servidor).
+  
+  CONTEÚDO EXTRA: O URL é dividido em partes, por exemplo: www.github.com/calebe.
+ 
+  www: World Wide Web (Sub Dominio)
+  github.io: Nome único do Servidor (Dominio).
+  /calebe: Caminho (pois tem / no inicio)
+  .com: TLD.
+  
+  PRATICAMENTO DO PROF. GUANABARA:
+   
+  * gustavoguanabara.github.io   
+  * gustavoguanabara: Sub Domínio
+  * github.io: Nome Único.
+  * .io: gTLD
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CAPÍTULO 3 - MÓDULO 1                                       **ULTIMO CAPÍTULO DA PARTE 1**                                                                        
+
+(Fase 3: Perguntas, Respostas, Explicações, Representações & Códigos)
+
+
+*Qual é a diferença entre HTML, CSS e JavaScript?
+
+  HTML: é uma linguagem que você desenvolve focado em CONTEÚDO. Por exemplo:
+
+              "Qual time você vai torcer no Brasileirão?"
+
+  CSS: é uma linguagem que você desenvolve focado em DESIGN. Por exemplo:
+
+   -Cores;
+   -Imagens decoradas;
+   -Tamanho/posicionamento;
+   -Sombras;
+   -Textos em fontes diferentes;
+   -etc...
+      
+  JS (JavaScript): é uma linguagem de PROGAMAÇÃO que é focada em INTERAÇÕES. Por exemplo:
+ 
+   -Abrir Menu;
+   -Selecionar algo
+   -Animações
+   -Escrever seu Nome
+   -etc...
+   
+  *DIFERENÇA DEFINITIVA: HTML é o Conteúdo do Site, CSS é o Design do Site, e o JS é a interação do Site,
+   além de ser uma linguagem de progamação.
+   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                  HTML + CSS + JS =
+                                                    
+
+                                                                  Principais Times que os
+                Qual time você vai torcer no Brasileirão?         Brasileiros Torcem (em %)    *Menu para esco-
+      _______________________________________________________________________________________   lher seu time*
+      |                                                          |                           |  ______________
+      |                                                          |  1- Flamengo com 26%      | |     MENU     |
+      |                                                          |                           | |1-Flamengo    |
+      |                                                          |  2- Corinthians com 19%   | |2-Corinthians |
+      |    (tabela de times classificados para o Brasileirão)    |___________________________| |3-São Paulo   |
+      |                                                          |*click*           |          |4-Palmeiras   |    
+      |                                                          |       Menu       |          |5-Cruzeiro    |
+      |                                                          |    -->-------    | ------>  |              |
+      |__________________________________________________________|    ----------    |          |    etc...    |
+                                                                 |__________________|          |              |
+                                                                                               |______________|
+_______________________________________________________________________________________________________________________________________________________________
+
+*Conteúdo em HTML:
+  Para criar um título, por exemplo, fazemos este código (Ex1):
+  
+  <h1> Exemplo de título </h1>
+  
+- <h1> : Abrir título;
+- </h1> : Fechar título.
+
+(Ex2):
+
+  <img src="foto.png" alt="Exemplo de foto">
+  
+- <img src= : Abertura de tag
+- alt= : parâmetro
+- "foto.png"/"Exemplo de foto" : Valor'
+
+*EXPLICAÇÃO: O "img src" significa imagem de origem. Então, após o = irá colocar o png da foto que quer colocar no Site.
+  Já o "alt", significa texto alternativo, isso basicamente é quando a imagem em png não carrega ou acontece algum outro 
+  problema, então aparece uma descrição avisando que a imagem não conseguiu ser mostrada.
+  
+--------------------------------------------------------------------------------------------------------------------------
+
+*Estilo em CSS:
+  Para criar um estilo no CSS, como por exemplo, no titulo, fazemos este código:
+  
+  h1{
+     font-family: Arial;
+     font-size: 20pt;e
+     color: blue;
+    }
+    
+*EXPLICAÇÃO: o "h1{" é o seletor, o estilo do titulo em CSS. Já o font-family, font-size e o color são pares de propriedades
+dentro da declaração.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+*Estrutura básica de documento em HTML
+
+  <!D0CTYPE html>
+  <html lang="pt-br">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport"
+         content="width=device-width,
+         initial-scale=1.0">
+         <title>Document/title>
+     </head>
+     <body>
+         <h1>Olá, Mundo!</h1>
+  
+     </body>
+  </html>S
+
+-------------------------------------------------------
+
+*Front-end e Back-end
+
+-O que é Front-end?
+  Front-end é algo que usa o Desenvolvedor (cliente) a favor de HTML, CSS e JS. Por exemplo:
+  
+  "Vagas abertas de desenvolvedores Front-end" = "Vagas abertas para desenvolvedores
+                                                  de HTML, CSS e JS".
+                                                  
+                              -->  Design: Dar ideias de cores, tamanhos, posições de imagens, fontes de textos, etc...
+*ATENÇÃO: Front-end ≠ Design-|
+                              -->  Front-end: Desenvolver e progamar o Site com as ideias do Design.
+                              
+-O que é Back-end/Server-end?
+  O Back-end e o Front-end se intercalam, o Front-end faz o código, e o Back-end se interessa no código
+  para armazenar e processar dados com as tecnologias do Server-end.
+  
+-Tecnologias mais conhecidas e usadas de Server-end
+  
+  1- php;
+  2- js (versão de JavaScript especializada para o Server-end);
+  3- c#;
+  4- python;
+  5- grub;
+  6- java.
+_______________________________________________________________________________________________________________________________________________________________
+
+                                                                    FIM DA PARTE 1. 
+                                                                   ----------------
+                                                               
+ *TODOS OS CONTEÚDOS ESTUDADOS NA PARTE 1 DO CURSO:
+ 
+ - CAPITULO 1:
+ 1. Como surgiu a Internet? (Conteúdo dentro do texto: TCP/IP)
+ -
+ 2. Como a Internet evoluiu? (Conteúdo dentro do texto: Internet antigamente e HTTP)
+ -
+ 3. O que é HTTP?
+ -
+ 4. O que é o World Wide Web (WWw)?
+ -
+ 5. Quem criou e qual foi o primeiro navegador da internet? (Navegador: Mosaic. Criador: Marc Andreessen)
+
+ - CAPITULO 2:
+ 6. Multiplos de Bytes (+ MB ≠ Mb)
+ -
+ 7. O que é um Modem? (MOdulação e DEModulação)
+ -
+ 8. Como acessamos os Sites? (+ Conteúdo Extra)
+ -
+ 9. O que é DNS?
+ -
+ 10. Por que as vezes demora para entrar em um Site?
+ -
+ 11. O que é Dominio e Hospedagem? (+ Conteúdo Extra: TLD)
+ -
+ 12. O que é um URL? (+ Prática)
+ 
+ - CAPITULO 3 (ULTIMO CAPITULO):
+ 13. Qual é a diferença entre HTML, CSS e JS?
+ -
+ 14. Ilustração de HTML + CSS + JS
+ -
+ 15. Conteúdo em HTML (+ Explicação)
+ -
+ 16. Estilo em CSS (+ Explicação)
+ -
+ 17. Front-end (+ Atenção: Front-end ≠ Design)
+ -
+ 18. O que é Back-end/Server-end?
+ 
+ 
+ 
+                      

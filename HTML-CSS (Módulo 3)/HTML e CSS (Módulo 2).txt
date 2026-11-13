@@ -1,0 +1,20 @@
+Modulo 3 - Capitulo 18
+-----------------------------------------------------------------------------------------------------------------------
+
+-O que é Git e Github?
+  Em exemplo de Git, ele é um software com a função de um certo Backup do seu projeto, dividido e organizado em 
+  versões, caso que você mexa e não goste, poderá voltar para uma versão anterior de seu projeto sem estresse.
+    
+*Problemas que pode acontecer: 
+  Em um caso que, seu computador der um problema, sendo como, perder o SSD  (ou o HD, qual seja que use), 
+  formatar o PC sem salvar os arquivos em um Pendrive, ou até mesmo, o PC queimar, acaba que todos seus 
+  Backups, suas versões, seus Còdigos sejam perdidos completamente.
+    
+  Outro problema que pode acontecer, é que, por exemplo, você como Dev criou um site para um cliente, porém ele não
+  conseguirá abrir, pois seu site está no localhost (só pode ser aberto no seu próprio computador), então, você
+  terá que guardar seu site em um servidor que, faz que possa sim, que seu cliente abra e consiga ver seu Site.
+    
+*Como resolver estes problemas? (Explicação do Github):
+  É simples, apenas terá que ter o Github, um local em que lá você poderá guardar seus Backups do Git, e ainda hos-
+  pedar de GRAÇA seus sites, para que os seus clientes vejam (Claramente, recomendam que se for um site complexo,
+  de um cliente mesmo, é melhor que tenha uma hospedagem melhor, por exemplo o Apache HTTP Server, porém ele é pago).

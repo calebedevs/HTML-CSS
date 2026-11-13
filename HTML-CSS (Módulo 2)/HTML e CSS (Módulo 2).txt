@@ -1,0 +1,129 @@
+CAPITULO 14 - MODULO 2
+-----------------------------------------------------
+
+-Extenções no Brave:
+  Fonts Ninja (Pegar uma Fonte de um Site)
+  ColorZila (Para pegar um Hex de uma cor)
+  DarkReader (Deixas as páginas Pretas e Cinzas)
+  
+------------------------------------------------------------------------
+
+-Emoções das Cores:
+  Azul: calma, serenidade, confiança, estabilidade
+  Vermelho: paixão, amor, desejo, coragem
+  Amarelo: alegria, otimismo, energia, criatividade, felicidade
+  Verde: natureza, saúde, renovação, esperança, natureza, equilíbrio
+  etc...
+  
+---------------------------------------------------------------------------
+
+-O que é Tipografia?
+  Tipografia é o que está escrito no papel/tela, por exemplo, fontes.
+
+*Emoções de Tipografia:
+  As emoções de Tipografia é bem parecido com a de cores, por exemplo:
+  
+  Fontes mais leves, delicadas, douradoras: Amor
+  Fontes Retas, em maiusculo, Juntas: Importante
+  Fontes mais curvadas, com defeitos, uma maior
+  e a outra menor: Feito à Mão
+  
+----------------------------------------------------------------------------
+
+CAPITULO 16 - MODULO 2
+
+--------------------------------------------------------------------------------------
+
+-Modelo de Caixas
+  Um dos modelos de caixas é quando você digita, por exemplo, um h1 no seu codigo,
+  dizendo "Olá, Mundo!", vai aparecer isso no seu site. E esse "Olá, Mundo!" tem uma
+  especie de traços transtornando ele, mais ou menos assim:
+  
+                          -------------
+                          |Olá, Mundo!|
+                          -------------
+                          
+*Nessa caixa, tem algumas coisas que complementam ela, como:
+  -height: Altura da caixa;
+  -widht: Largura da caixa;
+  -border: Linha em volta da caixa após os traços;
+  -padding: Espaço interno (após os traços);
+  -margin: Espaço externo (após a border);
+  -outline: contorno colado com o border em amarelo;
+  
+-------------------------------------------------------------------------------------------
+
+-Tipos de Caixas
+  Há dois tipos de caixas, uma é o box-level e a outra é o inline-level.
+  
+*box-level:
+  É quando, por exemplo, tem um parágrafo, então ao adicionar o box-level, ele cria uma nova
+  linha, e após faz uma caixa (ocupando o widht todo do ViewPort) e depois retorna com o res-
+  to do parágrafo.
+  
+*inline-level: É a mesma coisa do box-level, porém ao invés de criar uma nova linha, ele continua
+da parte que ele foi criado (por exemplo: no parágrafo após uma palavra), sem quebrar linha, e 
+sem ocupar o widht todo. E depois, continuar com o conteúdo.
+
+-Quais tags são consideradas Tipos de Caixas?
+
+ *No box-level         *No inline-level
+    <div>                   <span>
+Usadas para criar       Usadas para não
+uma nova linha e        quebrar linha e
+quebrar ela usan-       ocupar em um es-
+o widht todo do         paço pequeno den-
+   ViewPort             tro do parágrafo
+   
+-Exemplos de tags dos Tipos de Caixas.
+
+*box-level:
+  <div>          <article>
+  <h1>-<h6>      <aside>
+  <p>            <footer>
+  <main>         <form>
+  <header>       <video>
+  <nav>
+  
+*inline-level:
+  <span>        <sup>-<sub>
+  <a>           <label>
+  <code>        <button>
+  <small>       <input>
+  <strong>      <select>
+  <em>
+  
+------------------------------------------------------------------------------------------------------
+
+-O que é um User agent
+  É o conteúdo produzido automaticamente pelo seu próprio navegador, por exemplo:
+  
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em
+21.44px
+;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+-Shorthands em Fontes
+  font-style -> font-weight
+  -> font-size -> font-family
+
+--------------------------------------------------------------------------------------
+
+-Shorhands em Modelo de Caixas:
+  border: width -> style -> color;
+  padding: cima, direita, baixo esquerda (igual a um Relógio);
+  margin: Mesmo que o padding.
+  
+  
+  
+
+
+  
